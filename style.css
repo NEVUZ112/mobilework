@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    top: 0px;
+    left: 100px;
+    width: 1200px;
+    height: 650px;
+    background-color: #0d1a2d;
+}
+.header{
+    width: 300px;
+    height: 550px;
+    background-color:#15273f;
+    position: relative;
+    top: 50px;
+    left: 450px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #0a1320;
+}
+.header a .img{
+    width: 250px;
+    height: 250px;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: contain;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+    border-radius: 10px;
+}
+.header a .img:hover{
+    background-image: none;
+    background-color: #00fbf3;
+    background-size: contain;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 0;
+   
+}
+.header a .rasm{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 130px;
+    left: 130px;
+    z-index: 0;
+    border-radius: 10px; 
+}
+.header a .rasm:hover{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+    border-radius: 10px;
+    background-color: #00fbf3;
+    
+   
+}
+.header h1{
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+    position: absolute;
+    top: 285px;
+    left: 25px;
+}
+.header p{
+    width: 280px;
+    font-size: 18px;
+    font-family: Arial;
+    color: gray;
+    position: absolute;
+    top: 325px;
+    left: 25px;
+}
+.header h2{
+    width: 280px;
+    font-size: 18px;
+    font-family: Arial;
+    color: #00fbf3;
+    position: absolute;
+    top: 385px;
+    left: 45px;
+}
+.header img{
+    color: #00fbf3;
+    position: absolute;
+    top: 385px;
+    left: 25px;
+}
+.header h4{
+    width: 200px;
+    font-size: 14px;
+    font-family: Arial;
+    color: gray;
+    position: absolute;
+    top: 385px;
+    left: 205px;
+}
+.footer{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 430px;
+    left: 25px;
+    border-top: 3px solid gray;
+}
+.footer img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    border-radius: 360px;
+    border: 2px solid white;
+}
+.footer h3{
+    width: 100px;
+    height: 50px;
+    color: gray;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 200;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+.footer h1{
+    width: 100px;
+    height: 50px;
+    color:white;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 200;
+    position: absolute;
+    top: 39px;
+    left: 140px;
+}
+@media screen and (max-width:1100px){
+    .container{
+        position: relative;
+        top: 15px;
+        left: 80px;
+        width: 330px;
+        height: 573px;
+        background-color: #0d1a2d;
+    }
+    .header{
+        width: 300px;
+        height: 520px;
+        background-color:#15273f;
+        position: relative;
+        top: 25px;
+        left: 15px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #0a1320;
+    }
+    .header a .rasm:hover{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        z-index: 3;
+        border-radius: 10px;
+    }
+}
